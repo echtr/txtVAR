@@ -4,6 +4,7 @@ This module allows assigning variables for files with txt extension and reading 
 
 ## Wiki:
 
+<br>
 
 #### IMPORTANT:
  - You do not need to put the extensions of the text files: database.txt => txtvar("texts") 
