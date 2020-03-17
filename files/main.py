@@ -1,7 +1,7 @@
 # Github: EchTR
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-class txtdb:
+class txtvar:
 	def __init__(self,file_name,var_name="none",var_value="none"):
 		self.file_name = ("{}.txt".format(file_name))
 		self.var_name = var_name
