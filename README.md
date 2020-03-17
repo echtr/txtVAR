@@ -3,12 +3,13 @@ This module allows assigning variables for files with txt extension and reading 
 <br>
 
 ## Wiki:
+ ### The last line cannot be empty!
 
 #### Basics:
  - You do not need to put the extensions of the text files: database.txt => txtvar("texts") 
  - Simply variable definition: var1 > var1value (You have to leave a space before and after the '>' sign.)
  - The append_var() function moves to the next line before defining a variable.
- - The last line cannot be empty!
+
 
 
 <br>
