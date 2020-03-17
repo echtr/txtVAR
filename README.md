@@ -7,6 +7,7 @@ Database for files with .txt extension.
 #### Basics:
  - You do not need to put the extensions of the text files: database.txt => txtdb("database") 
  - Simply variable definition: var1 > var1value (You have to leave a space before and after the '>' sign.)
+ - The append_var () function moves to the next line before defining a variable.
 
 
 <br>
