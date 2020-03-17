@@ -50,5 +50,3 @@ class txtdb:
 		f_file = open(self.file_name,"a+")
 		f_file.write("\n{} > {}".format(self.var_name,self.var_value))
 		f_file.close()
-print(txtdb("veritabani","isim","efe").append_var())				
-input("")
