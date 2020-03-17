@@ -2,7 +2,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 class txtvar:
-	def __init__(self,file_name,var_name="none",var_value="none"):
+	def __init__(self,file_name):
 		self.file_name = ("{}.txt".format(file_name))
 		self.var_name = var_name
 		self.var_value = var_value
@@ -46,7 +46,3 @@ class txtvar:
 					que2 = que2 + 1
 			que2 = 0
 		return variables	
-	def append_var(self):
-		f_file = open(self.file_name,"a+")
-		f_file.write("\n{} > {}".format(self.var_name,self.var_value))
-		f_file.close()
