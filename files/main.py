@@ -1,6 +1,7 @@
 # Github: EchTR
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import os
 class txtvar:
 	def __init__(self,file_name):
 		self.file_name = ("{}.txt".format(file_name))
@@ -15,17 +16,17 @@ class txtvar:
 			total_l = total_l + 1
 		f_file.seek(0)
 		for i in f_file:
+			l_l = l_l + 1
 			if l_l == total_l:
-				if ">" in i:
-					for k in i:
-						if k == ("""
-	"""):
-							print("pass")
-							pass
-						if k == ">":
-							variable_list.update({str(i[0:que2-1]):str(i[que2+2:len(i)])})
-							variables = variables + 1
-						que2 = que2 + 1
+				if i == "#":
+					break
+				else:
+					if ">" in i:
+						for k in i:
+							if k == ">":
+								variable_list.update({str(i[0:que2-1]):str(i[que2+2:len(i)])})
+								variables = variables + 1
+							que2 = que2 + 1
 			else:
 				if ">" in i:
 					for k in i:
@@ -34,7 +35,6 @@ class txtvar:
 							variables = variables + 1
 						que2 = que2 + 1
 			que2 = 0
-			l_l = l_l + 1
 		return variable_list	
 	def numofvars(self):
 		f_file = open(self.file_name,"r")
