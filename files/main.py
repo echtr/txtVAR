@@ -18,8 +18,8 @@ class txtvar:
 		for i in f_file:
 			l_l = l_l + 1
 			if l_l == total_l:
-				if i == "#":
-					break
+				if i != "#":
+					return "error!"
 				else:
 					if ">" in i:
 						for k in i:
