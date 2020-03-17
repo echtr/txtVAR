@@ -23,4 +23,5 @@ steam id > echtr
 
 | Function | Output |
 | --- | --- |
-| variables() | |
+| variables() | {'developer':'echtr','steam id':'echtr'} |
+| numofvars() | 2 |
