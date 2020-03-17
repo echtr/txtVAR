@@ -1,4 +1,4 @@
-# txtDB
+# txtVAR
 Database for files with .txt extension.
 <br>
 
