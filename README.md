@@ -4,6 +4,15 @@ Database for files with .txt extension.
 
 ## Wiki:
 
+#### Basics:
+ - You do not need to put the extensions of the text files: database.txt => txtdb("database") 
+ - Simply variable definition: x > y (You have to leave a space before and after the '>' sign.)
+
+
+<br>
+<br>
+
+
 #### Functions:
 
 | Function | Description | Usage |
