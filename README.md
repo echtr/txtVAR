@@ -27,8 +27,8 @@ This module allows assigning variables for files with txt extension and reading 
 
 #### Output:
 
-```
 texts.txt:
+```
 developer > echtr
 hello
 steam id > echtr
