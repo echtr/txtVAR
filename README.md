@@ -15,7 +15,7 @@ Database for files with .txt extension.
 
 #### Output:
 
-database.txt:
 ```
+database.txt :
 developer > echtr
 ```
