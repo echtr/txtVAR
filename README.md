@@ -2,7 +2,8 @@
 Database for files with .txt extension.
 <br>
 
-### Wiki:
+## Wiki:
+#### Functions:
 
 | Functions | Description | Usage |
 | --- | --- | --- |
