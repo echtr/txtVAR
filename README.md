@@ -9,7 +9,7 @@ This module allows assigning variables for files with txt extension and reading 
 #### IMPORTANT:
  - You do not need to put the extensions of the text files: database.txt => txtvar("texts") 
  - Simply variable definition: var1 > var1value (You have to leave a space before and after the '>' sign.)
- - The last line cannot be empty!
+ - The last line must be the '#' sign.
 
 
 <br>
@@ -33,6 +33,7 @@ texts.txt:
 developer > echtr
 hello
 steam id > echtr
+#
 ```
 
 | Function | Output |
