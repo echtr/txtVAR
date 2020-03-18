@@ -1,0 +1,4 @@
+tr-eng dict:
+hello > merhaba
+hi > selam
+#
