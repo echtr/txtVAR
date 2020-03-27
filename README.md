@@ -7,7 +7,7 @@ This module allows assigning variables for files with txt extension and reading 
 <br>
 
 #### IMPORTANT:
- - You do not need to put the extensions of the text files: database.txt => txtvar("texts") 
+ - You do not need to put the extensions of the text files: texts.txt => txtvar("texts") 
  - Simply variable definition: var1 > var1value (You have to leave a space before and after the '>' sign.)
  - The last line must be the '#' sign.
 
